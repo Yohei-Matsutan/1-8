@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.list{
+	margin-top: 50px;
+}
+
+.item{
+	margin: auto;
+	width: 960px;
+	padding: 20px 0 20px 20px;
+	color: #6c6b6b;
+}
+
+.item:nth-child(odd){
+	background-color: #cccaca;
+}
+
+.pannels{
+	width: 960px;
+	margin: 50px auto 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* 
+回答では
+.box{}で全体的にmarginやcolorを指定
+それより高い詳細度の擬似クラスでオレンジ色とか、marginを指定してた
+nth-child(3n)とか(-n + 3)での指定もできるっぽい
+*/
+
+.pannel:nth-child(1){
+	height: 200px;
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	background-color: orange;
+}
+
+.pannel:nth-child(2){
+	height: 200px;
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	background-color: yellow;
+}
+
+.pannel:nth-child(3){
+	height: 200px;
+	width: 30%;
+	margin-bottom: 40px;
+	background-color: yellow;
+}
+
+.pannel:nth-child(4){
+	height: 200px;
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	background-color: yellow;
+}
+
+.pannel:nth-child(5){
+	height: 200px;
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	background-color: orange;
+}
+
+.pannel:nth-child(6){
+	height: 200px;
+	width: 30%;
+	margin-bottom: 40px;
+	background-color: yellow;
+}
+
+.pannel:nth-child(7){
+	height: 200px;
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	background-color: yellow;
+}
+
+.pannel:nth-child(8){
+	height: 200px;
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	background-color: yellow;
+}
+
+.pannel:nth-child(9){
+	height: 200px;
+	width: 30%;
+	margin-bottom: 40px;
+	background-color: orange;
+}
